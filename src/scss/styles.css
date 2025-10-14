@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*360 x 740*/
+
+.root {
+  font-family: "Roboto Slab"; /*revisar*/
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.menu__icon {
+  background-color: #6c933e;
+  padding: 0.6rem;
+  color: white;
+  cursor: pointer;
+}
+
+.section__start {
+  background-image: url(../images/cover.jpeg);
+  background-size:cover;
+  background-position: center right -4.3rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 34.5rem;
+  padding-top: 15rem;
+}
+
+h1 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  padding: 6px;
+}
+
+.header__span {
+  display: flex;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  padding: 1rem;
+}
+
+.header__arrow {
+  color: #6c933e;
+  background-color: white;
+  padding: 0.8rem 0.6rem;
+  border-radius: 100%;
+}
+
+.section__buy {
+  border: solid 3px red;
+}
+
+.span__buy {
+  border: solid 3px red;
+}
+
+h2 {
+  border: solid 3px red;
+}
+
+p {
+  border: solid 3px red;
+}
+
+.span__button {
+  border: solid 3px red;
+}
+
+.section__info {
+  border: solid 3px red;
+}
+
+.span__info {
+  border: solid 3px red;
+}
+
+h3 {
+  border: solid 3px red;
+}
+
+.section__info img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.section__button {
+  border: solid 3px red;
+}
+
+.footer {
+  border: solid 3px red;
+}
+
+.footer__arrow {
+  border: solid 3px red;
+}
+
+.footer__products {
+  border: solid 3px red;
+}
+
+.footer__links {
+  border: solid 3px red;
+}
+
+/*768 tablet*/
+@media (min-width: 1024px) {
+
+}
+
+/*1024 desktop*/
+@media (min-width: 1024px) {
+
+.section__start {
+ background-size: 120%;
+ background-position: center -9rem ;
+ height: 38rem;
+}
+
+h1 span {
+font-size: 4rem;
+}
+
+.header__span {
+  font-size: 1.6rem;
+  padding-top: 0;
+ 
+}
+
+.header__arrow {
+  padding: 1.1rem 0.8rem;
+}
+}
