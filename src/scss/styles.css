@@ -122,12 +122,30 @@ h3 {
 }
 
 /*768 tablet*/
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+.section__start {
+ background-size: 120%;
+ background-position: center;
+ padding-bottom: 50px;
+}
 
+h1 span {
+font-size: 4rem;
+}
+
+.header__span {
+  font-size: 1.6rem;
+  padding-top: 0;
+  width: 350px;         
+}
+
+.header__arrow {
+  padding: 1.1rem 0.8rem;
+}
 }
 
 /*1024 desktop*/
-@media (min-width: 1024px) {
+@media (width: 1024px) {
 
 .section__start {
  background-size: 120%;
