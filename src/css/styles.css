@@ -115,7 +115,6 @@ p {
   color: var(--color-terciary);
   font-size: 1.1rem;
   line-height: 1.8rem;
-  /*Ayuda de chat gpt para el espacio entre líneas*/
 }
 
 .span__button {
@@ -174,7 +173,6 @@ h3 {
   height: 7.7rem;
   border-radius: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  /*Ayuda de chat gpt para el sombreado de las imágenes*/
 }
 
 .section__button {
@@ -353,7 +351,6 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
-    /*Ayuda de chat gpt para centrar la flecha*/
   }
 }
 
@@ -442,6 +439,5 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
-    /*Ayuda de chat gpt para centrar la flecha*/
   }
 }
