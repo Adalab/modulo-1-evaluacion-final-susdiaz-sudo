@@ -1,8 +1,8 @@
-# 🏫 Vuelta al cole --- Proyecto de maquetación web
+# 🏫 Vuelta al cole 
 
 ## ✨ Descripción general
 
-Este proyecto es una **página web estática** titulada **"Vuelta al
+Este proyecto es una **página web** titulada **"Vuelta al
 cole"**, creada como ejercicio de práctica de **HTML y CSS**.\
 El objetivo principal es aplicar conceptos de **estructura semántica**,
 **diseño responsive** y **uso de variables CSS**, simulando la landing
@@ -22,10 +22,15 @@ page de una tienda deportiva enfocada en la vuelta a clases.
 
     📁 proyecto-vuelta-al-cole
     │
-    ├── index.html        # Página principal
-    ├── styles.css        # Estilos CSS
-    ├── cover.jpeg        # Imagen de fondo de la sección principal
-    └── /img/             # Carpeta de iconos e imágenes adicionales (referenciada en el HTML)
+    └── /src/    
+       ├── index.html        # Página principal
+       ├── /partials/        # Carpeta del contenido de las partes del index.html
+          ├──header.html 
+          ├──main.html
+          ├──footer.html
+       ├──/css/
+          ├── styles.css        # Estilos CSS
+    └── /public/             # Carpeta de iconos e imágenes adicionales (usada en el HTML y CSS)
 
 ## 🧩 Tecnologías utilizadas
 
@@ -58,13 +63,11 @@ visuales limpias**.
 1.  Clona el repositorio:
 
     ``` bash
-    git clone https://github.com/tuusuario/vuelta-al-cole.git
+    git clone https://github.com/Adalab/modulo-1-evaluacion-final-susdiaz-sudo.git
     ```
 
 2.  Abre el archivo `index.html` en tu navegador favorito.
 
-> 💡 Tip: asegúrate de tener la carpeta `/img/` en el mismo nivel para
-> que se carguen todas las imágenes correctamente.
 
 ## 💬 Reflexión final
 
