@@ -40,8 +40,8 @@ page de una tienda deportiva enfocada en la vuelta a clases.
 
 ## 🖥️ Diseño responsive
 
-El diseño se adapta a **tres puntos de quiebre principales**: - 📱
-*Móvil* --- hasta 767px\
+El diseño se adapta a **tres puntos de quiebre principales**: 
+- 📱 *Móvil* --- hasta 767px\
 - 💻 *Tablet* --- desde 768px\
 - 🖥️ *Desktop* --- desde 1024px
 
